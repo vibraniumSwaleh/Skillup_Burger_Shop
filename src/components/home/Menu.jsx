@@ -11,19 +11,19 @@ function Menu() {
     {
       itemNum: 1,
       burgerSrc: Burger1,
-      price: 100,
+      price: 2560,
       title: "Cheeseburger",
     },
     {
       itemNum: 2,
       burgerSrc: Burger2,
-      price: 250,
+      price: 4920,
       title: "Veggie Burger",
     },
     {
       itemNum: 3,
       burgerSrc: Burger3,
-      price: 390,
+      price: 2560,
       title: "Chicken Burger",
     },
   ];

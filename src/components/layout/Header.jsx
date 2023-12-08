@@ -15,10 +15,10 @@ function Header() {
           style={{marginTop: "2px"}}
         />
       </a>
-    <a className="nav-link active" aria-current="page" href="#">Home</a>
+    <a className="nav-link active" aria-current="page" href="/">Home</a>
     <a className="nav-link" href="/contact">Contact</a>
     <a className="nav-link" href="/about">About</a>
-    <a className="nav-link" href="">Shopping Cart</a>
+    <a className="nav-link" href="/cart">Shopping Cart</a>
     <DropdownMenu/>
   </nav>);
 };
