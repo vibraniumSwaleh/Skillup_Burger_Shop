@@ -1,0 +1,118 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$gray-color: #868e96;
+
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+.sign-in-page {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.sign-in-header {
+  text-align: center;
+}
+
+.sign-in-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: $primary-color;
+}
+
+.sign-in-subtitle {
+  font-size: 16px;
+  color: $secondary-color;
+}
+
+.sign-in-form {
+  margin-top: 20px;
+}
+
+.sign-in-email {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid $gray-color;
+  border-radius: 4px;
+}
+
+.sign-in-password {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid $gray-color;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.sign-in-remember {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.sign-in-remember-checkbox {
+  margin-right: 10px;
+}
+
+.sign-in-remember-label {
+  font-size: 14px;
+  color: $secondary-color;
+}
+
+.sign-in-forgot {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.sign-in-forgot-link {
+  font-size: 14px;
+  color: $secondary-color;
+}
+
+.sign-in-button {
+  width: 100%;
+  padding: 10px;
+  background-color: $primary-color;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.sign-in-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sign-in-footer-link {
+  font-size: 14px;
+  color: $secondary-color;
+}
+
+/* Social login buttons */
+
+.social-login-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-login-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.social-login-button-facebook {
+  background-color: #3b5998;
+}
+
+.social-login-button-google {
+  background-color: #ea4335;
+}
