@@ -54,7 +54,7 @@ function App() {
          //           Add the Route for MY ORDERS
          <Route path="/myorders" element={<MyOrders />} />
 
-        <Route path="/order/:id" element={<OrderDetails />} />
+        <Route path="/orders/:id" element={<OrderDetails />} />
       
        
 
