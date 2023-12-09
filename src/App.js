@@ -56,9 +56,6 @@ function App() {
 
         <Route path="/orders/:id" element={<OrderDetails />} />
       
-       
-
-        
       </Routes>
 
       <Footer />
