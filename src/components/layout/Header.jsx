@@ -29,7 +29,7 @@ function Header() {
           </button>
 
           <div className="collapse navbar-collapse justify-content-end" id="navbarButtonsExample">
-            <div className="d-flex justify-content-end bg-white mb-2">
+            <div className="d-flex justify-content-end bg-body-tertiary mb-2">
             <a data-mdb-ripple-init className="nav-link active" href="/">Home</a>
             <a data-mdb-ripple-init className="nav-link active" href="/contact">Contact</a>
             <a data-mdb-ripple-init className="nav-link active" href="/about">About</a>
